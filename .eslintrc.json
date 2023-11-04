@@ -3,5 +3,11 @@
     "next/core-web-vitals",
     "standard",
     "plugin:tailwindcss/recommended"
-  ]
+  ],
+  "rules": {
+    "space-before-function-paren": [
+      "error",
+      "never"
+    ]
+  }
 }
