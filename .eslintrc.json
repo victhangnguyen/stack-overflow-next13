@@ -5,6 +5,14 @@
     "plugin:tailwindcss/recommended"
   ],
   "rules": {
+    "camelcase": [
+      "error",
+      {
+        "allow": [
+          "Space_Grotesk"
+        ]
+      }
+    ],
     "space-before-function-paren": [
       "error",
       "never"
